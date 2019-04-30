@@ -4,7 +4,7 @@
   "description": "Agora vai",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "build/index.js",
     "dev": "nodemon build/index.js",
     "start": "build/index.js"
   },
