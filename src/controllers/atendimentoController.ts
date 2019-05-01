@@ -5,7 +5,7 @@ import pool from '../database';
 class AtendimentoController {
 
     public async get(req: Request, res: Response): Promise<void> {
-        const games = await pool.query('SELECT chamadoatual, setoratual, nome, unidade FROM colaboradores');
+        const games = await pool.query('SELECT nome ,nsetor, chamadoatual FROM colaboradores AS A INNER JOIN setor AS B ON A.setoratual = B.id');
         res.json(games);
     }
 
