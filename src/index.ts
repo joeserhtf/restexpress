@@ -33,13 +33,13 @@ class Server {
 
     routes(): void {
         this.app.use('/', atendimentoRoutes); //Atendentes
-        this.app.use('//api/colab', colaboradorRoutes); //colaboradores
-        this.app.use('//api/time', timesheetRoutes); //timesheet
-        this.app.use('//api/proj', projetoRoutes); //projetos
-        this.app.use('//api/inv', inventarioRoutes); //inventario
-        this.app.use('//api/data', dataRoutes); //dataapi
-        this.app.use('//api/cf', custfixoRoutes); //cfs
-        this.app.use('//api/auth', loginRoutes); //auth (login etc..)
+        this.app.use('/api/colab', colaboradorRoutes); //colaboradores
+        this.app.use('/api/time', timesheetRoutes); //timesheet
+        this.app.use('/api/proj', projetoRoutes); //projetos
+        this.app.use('/api/inv', inventarioRoutes); //inventario
+        this.app.use('/api/data', dataRoutes); //dataapi
+        this.app.use('/api/cf', custfixoRoutes); //cfs
+        this.app.use('/api/auth', loginRoutes); //auth (login etc..)
     }
 
     start() {
