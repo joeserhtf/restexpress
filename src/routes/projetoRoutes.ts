@@ -13,6 +13,9 @@ class ProjetoRoutes {
 
     config(): void {
         this.router.get('/', projetoController.list);
+        this.router.get('/orc/:id', projetoController.getOrc);
+        this.router.get('/log/:id', projetoController.getLog);
+        this.router.get('/:id', projetoController.getOne);
         this.router.post('/', projetoController.create);
         this.router.put('/:id', projetoController.update);
     }

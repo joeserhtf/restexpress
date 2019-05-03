@@ -12,7 +12,8 @@ class TimesheetRoutes {
     }
 
     config(): void {
-        this.router.get('/', timesheetController.list);
+        this.router.get('/:id', timesheetController.list);
+        this.router.get('/my/:id/:data', timesheetController.listmy);
         this.router.put('/:id', timesheetController.update);
     }
 

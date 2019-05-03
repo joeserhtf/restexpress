@@ -19,6 +19,27 @@ class ProjetoController {
             res.json(games);
         });
     }
+    getOne(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { id } = req.params;
+            const games = yield database_1.default.query(`SELECT * FROM projeto WHERE id = ${id}`);
+            res.json(games);
+        });
+    }
+    getOrc(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { id } = req.params;
+            const games = yield database_1.default.query(`SELECT * FROM orcaproj WHERE idprojeto = ${id}`);
+            res.json(games);
+        });
+    }
+    getLog(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { id } = req.params;
+            const games = yield database_1.default.query(`SELECT * FROM logproj WHERE idprojeto = ${id}`);
+            res.json(games);
+        });
+    }
     create(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const result = yield database_1.default.query('INSERT INTO projeto set ?', [req.body]);

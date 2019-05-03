@@ -15,7 +15,7 @@ const database_1 = __importDefault(require("../database"));
 class AtendimentoController {
     get(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const games = yield database_1.default.query('SELECT chamadoatual, setoratual, nome, unidade FROM colaboradores');
+            const games = yield database_1.default.query('SELECT nome, A.id, B.setor, chamadoatual FROM colaboradores AS A INNER JOIN setor AS B ON A.setor = B.id ORDER BY A.id');
             res.json(games);
         });
     }

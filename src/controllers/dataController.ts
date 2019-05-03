@@ -6,7 +6,7 @@ import pool from '../database';
 class DataController {
 
     public async list(req: Request, res: Response): Promise<void> {
-        const games = await pool.query('SELECT * FROM impressoras');
+        const games = await pool.query('SELECT I.id, I.setor, I.ip, U.unidade, M.modelo FROM impressoras AS I INNER JOIN unidade as U ON I.unidade = U.id INNER JOIN modeloimp as M ON I.modelo = M.id;');
         res.json(games);
     }
 

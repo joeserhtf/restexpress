@@ -10,6 +10,24 @@ class ProjetoController {
         res.json(games);
     }
 
+    public async getOne(req: Request, res: Response): Promise<void> {
+        const { id } = req.params;
+        const games = await pool.query(`SELECT * FROM projeto WHERE id = ${id}`);
+        res.json(games);
+    }
+
+    public async getOrc(req: Request, res: Response): Promise<void> {
+        const { id } = req.params;
+        const games = await pool.query(`SELECT * FROM orcaproj WHERE idprojeto = ${id}`);
+        res.json(games);
+    }
+
+    public async getLog(req: Request, res: Response): Promise<void> {
+        const { id } = req.params;
+        const games = await pool.query(`SELECT * FROM logproj WHERE idprojeto = ${id}`);
+        res.json(games);
+    }
+
     public async create(req: Request, res: Response): Promise<void> {
         const result = await pool.query('INSERT INTO projeto set ?', [req.body]);
         res.json({ message: 'Savlo' });

@@ -15,7 +15,17 @@ const database_1 = __importDefault(require("../database"));
 class TimesheetController {
     list(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const games = yield database_1.default.query('SELECT * FROM timesheet');
+            const { id } = req.params;
+            const games = yield database_1.default.query('SELECT * FROM timesheet WHERE userid = ?', [id]);
+            res.json(games);
+        });
+    }
+    listmy(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const { id } = req.params;
+            const { data } = req.params;
+            const games = yield database_1.default.query(`SELECT * FROM timesheet WHERE userid = ? AND datat LIKE "${data}%" `, [id]);
+            console.log(req.params);
             res.json(games);
         });
     }

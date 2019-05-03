@@ -12,6 +12,9 @@ class ColaboradorRoutes {
 
     config() {
         this.router.get('/', colaboradorController.get);
+        this.router.get('/u', colaboradorController.getU);
+        this.router.get('/c', colaboradorController.getC);
+        this.router.get('/s', colaboradorController.getS);
         this.router.post('/', colaboradorController.create);
         this.router.put('/:id', colaboradorController.update);
     }

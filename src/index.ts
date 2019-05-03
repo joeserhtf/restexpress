@@ -11,6 +11,7 @@ import inventarioRoutes from './routes/inventarioRoutes';
 import dataRoutes from './routes/dataRoutes';
 import custfixoRoutes from './routes/custfixoRoutes';
 import loginRoutes from './routes/loginRoutes';
+import scRoutes from './routes/scRoutes';
 
 class Server {
 
@@ -38,6 +39,7 @@ class Server {
         this.app.use('/api/proj', projetoRoutes); //projetos
         this.app.use('/api/inv', inventarioRoutes); //inventario
         this.app.use('/api/data', dataRoutes); //dataapi
+        this.app.use('/api/sc', scRoutes); //Sc
         this.app.use('/api/cf', custfixoRoutes); //cfs
         this.app.use('/api/auth', loginRoutes); //auth (login etc..)
     }

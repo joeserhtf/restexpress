@@ -9,7 +9,8 @@ class TimesheetRoutes {
         this.config();
     }
     config() {
-        this.router.get('/', timesheetController_1.timesheetController.list);
+        this.router.get('/:id', timesheetController_1.timesheetController.list);
+        this.router.get('/my/:id/:data', timesheetController_1.timesheetController.listmy);
         this.router.put('/:id', timesheetController_1.timesheetController.update);
     }
 }

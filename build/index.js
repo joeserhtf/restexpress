@@ -15,6 +15,7 @@ const inventarioRoutes_1 = __importDefault(require("./routes/inventarioRoutes"))
 const dataRoutes_1 = __importDefault(require("./routes/dataRoutes"));
 const custfixoRoutes_1 = __importDefault(require("./routes/custfixoRoutes"));
 const loginRoutes_1 = __importDefault(require("./routes/loginRoutes"));
+const scRoutes_1 = __importDefault(require("./routes/scRoutes"));
 class Server {
     constructor() {
         this.app = express_1.default();
@@ -30,13 +31,14 @@ class Server {
     }
     routes() {
         this.app.use('/', atendimentoRoutes_1.default); //Atendentes
-        this.app.use('//api/colab', colaboradorRoutes_1.default); //colaboradores
-        this.app.use('//api/time', timesheetRoutes_1.default); //timesheet
-        this.app.use('//api/proj', projetoRoutes_1.default); //projetos
-        this.app.use('//api/inv', inventarioRoutes_1.default); //inventario
-        this.app.use('//api/data', dataRoutes_1.default); //dataapi
-        this.app.use('//api/cf', custfixoRoutes_1.default); //cfs
-        this.app.use('//api/auth', loginRoutes_1.default); //auth (login etc..)
+        this.app.use('/api/colab', colaboradorRoutes_1.default); //colaboradores
+        this.app.use('/api/time', timesheetRoutes_1.default); //timesheet
+        this.app.use('/api/proj', projetoRoutes_1.default); //projetos
+        this.app.use('/api/inv', inventarioRoutes_1.default); //inventario
+        this.app.use('/api/data', dataRoutes_1.default); //dataapi
+        this.app.use('/api/sc', scRoutes_1.default); //Sc
+        this.app.use('/api/cf', custfixoRoutes_1.default); //cfs
+        this.app.use('/api/auth', loginRoutes_1.default); //auth (login etc..)
     }
     start() {
         this.app.listen(this.app.get('port'), () => {

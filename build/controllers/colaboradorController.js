@@ -15,8 +15,26 @@ const database_1 = __importDefault(require("../database"));
 class ColaboradorController {
     get(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const games = yield database_1.default.query('SELECT unidade, setor, cargo, nome, email FROM colaboradores');
-            res.json(games);
+            const col = yield database_1.default.query('SELECT C.id, S.setor, U.unidade , K.cargo, nome, email FROM colaboradores as C INNER JOIN setor as S ON C.setor = S.id INNER JOIN unidade as U ON C.unidade = U.id INNER JOIN cargos as K ON C.cargo = K.id ORDER BY C.id;');
+            res.json(col);
+        });
+    }
+    getU(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const uni = yield database_1.default.query('SELECT id ,unidade FROM unidade ORDER BY id;');
+            res.json(uni);
+        });
+    }
+    getC(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const carg = yield database_1.default.query('SELECT id ,cargo FROM cargos ORDER BY id;');
+            res.json(carg);
+        });
+    }
+    getS(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const se = yield database_1.default.query('SELECT id ,setor FROM setor ORDER BY id;');
+            res.json(se);
         });
     }
     create(req, res) {
@@ -28,7 +46,6 @@ class ColaboradorController {
     update(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const { id } = req.params;
-            const oldGame = req.body;
             yield database_1.default.query('UPDATE colaboradores set ? WHERE id = ?', [req.body, id]);
             res.json({ message: "Cadastro atualizado" });
         });

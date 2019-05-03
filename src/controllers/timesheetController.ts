@@ -6,7 +6,16 @@ import pool from '../database';
 class TimesheetController {
 
     public async list(req: Request, res: Response): Promise<void> {
-        const games = await pool.query('SELECT * FROM timesheet');
+        const { id } = req.params;
+        const games = await pool.query('SELECT * FROM timesheet WHERE userid = ?', [id]);
+        res.json(games);
+    }
+
+    public async listmy(req: Request, res: Response): Promise<void> {
+        const { id } = req.params;
+        const { data } = req.params;
+        const games = await pool.query(`SELECT * FROM timesheet WHERE userid = ? AND datat LIKE "${data}%" `, [id] );
+        console.log(req.params);
         res.json(games);
     }
 
