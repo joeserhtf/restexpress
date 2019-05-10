@@ -11,6 +11,7 @@ class AtendimentoRoutes {
     config() {
         this.router.get('/', atendimentoController_1.atendimentoController.get);
         this.router.put('/:id', atendimentoController_1.atendimentoController.update);
+        this.router.get('/api/s', atendimentoController_1.atendimentoController.gets);
     }
 }
 const atendimentoRoutes = new AtendimentoRoutes();

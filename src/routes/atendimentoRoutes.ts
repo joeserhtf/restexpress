@@ -14,6 +14,7 @@ class AtendimentoRoutes {
     config(): void {
         this.router.get('/', atendimentoController.get);
         this.router.put('/:id', atendimentoController.update);
+        this.router.get('/api/s', atendimentoController.gets);
     }
 
 }

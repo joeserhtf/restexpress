@@ -15,15 +15,30 @@ const database_1 = __importDefault(require("../database"));
 class AtendimentoController {
     get(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const games = yield database_1.default.query('SELECT nome, A.id, B.setor, chamadoatual FROM colaboradores AS A INNER JOIN setor AS B ON A.setor = B.id ORDER BY A.id');
+            const games = yield database_1.default.query(`SELECT nome, A.id, B.setor, chamadoatual, obs
+                                        FROM colaboradores AS A 
+                                        INNER JOIN setor AS B 
+                                        ON A.setor = B.id 
+                                        ORDER BY A.id`);
+            res.json(games);
+        });
+    }
+    gets(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            const games = yield database_1.default.query(`SELECT *
+                                        FROM setor`);
             res.json(games);
         });
     }
     update(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const { id } = req.params;
-            const oldGame = req.body;
-            yield database_1.default.query('UPDATE colaboradores set ? WHERE id = ?', [req.body, id]);
+            console.log(req.body);
+            yield database_1.default.query(`UPDATE colaboradores 
+                          SET
+                            setor = ${req.body.setor},
+                            chamadoatual = ${req.body.chamadoatual},
+                            obs = '${req.body.obs}'
+                          WHERE id = ${req.body.id}`);
             res.json({ message: "Cadastro atualizado" });
         });
     }

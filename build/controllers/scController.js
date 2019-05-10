@@ -15,7 +15,12 @@ const database_1 = __importDefault(require("../database"));
 class ScController {
     list(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const games = yield database_1.default.query('SELECT * FROM sc;');
+            const games = yield database_1.default.query(`SELECT S.id, S.dataap, S.chamado ,S.numerosc, T.tipo, C.nome, U.unidade, A.situacao
+                                        FROM sc AS S
+                                        INNER JOIN tiposc as T ON S.tipo = T.id
+                                        INNER JOIN colaboradores AS C ON S.solicitante = C.id
+                                        INNER JOIN unidade AS U ON S.unidade = U.id
+                                        INNER JOIN statussc AS A ON S.situacao = A.id;`);
             res.json(games);
         });
     }
