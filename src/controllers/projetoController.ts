@@ -12,7 +12,9 @@ class ProjetoController {
 
     public async getOne(req: Request, res: Response): Promise<void> {
         const { id } = req.params;
-        const games = await pool.query(`SELECT * FROM projeto WHERE id = ${id}`);
+        const games = await pool.query(`SELECT id,nome,orcamento,empresa,projpai,setor,subarea,kuser,kcontato,solicitante, status, prioridade,DATE_FORMAT(previsao, '%d-%m-%Y') as previsao,DATE_FORMAT(inicio, '%d-%m-%Y') as inicio,objetivo,beneficioqt,beneficioql
+        from projeto
+        WHERE id = ${id};`);
         res.json(games);
     }
 

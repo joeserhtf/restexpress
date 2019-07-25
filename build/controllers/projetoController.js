@@ -22,7 +22,9 @@ class ProjetoController {
     getOne(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const { id } = req.params;
-            const games = yield database_1.default.query(`SELECT * FROM projeto WHERE id = ${id}`);
+            const games = yield database_1.default.query(`SELECT id,nome,orcamento,empresa,projpai,setor,subarea,kuser,kcontato,solicitante, status, prioridade,DATE_FORMAT(previsao, '%d-%m-%Y') as previsao,DATE_FORMAT(inicio, '%d-%m-%Y') as inicio,objetivo,beneficioqt,beneficioql
+        from projeto
+        WHERE id = ${id};`);
             res.json(games);
         });
     }

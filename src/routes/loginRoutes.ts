@@ -12,6 +12,7 @@ class LoginRoutes {
 
     config() {
         this.router.get('/', loginController.list);
+        this.router.post('/login', loginController.login);
         this.router.post('/', loginController.create);
     }
 

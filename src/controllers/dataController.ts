@@ -22,7 +22,6 @@ class DataController {
 
     public async update(req: Request, res: Response): Promise<void> {
         const { id } = req.params;
-        const oldGame = req.body;
         await pool.query('UPDATE impressoras set ? WHERE id = ?', [req.body, id]);
         res.json({ message: "Updated" });
     }

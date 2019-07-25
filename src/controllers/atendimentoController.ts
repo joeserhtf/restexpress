@@ -5,11 +5,9 @@ import pool from '../database';
 class AtendimentoController {
 
     public async get(req: Request, res: Response): Promise<void> {
-        const games = await pool.query(`SELECT nome, A.id, B.setor, chamadoatual, obs
-                                        FROM colaboradores AS A 
-                                        INNER JOIN setor AS B 
-                                        ON A.setor = B.id 
-                                        ORDER BY A.id`);
+        const games = await pool.query(`SELECT nome, id, setor, chamadoatual, obs
+                                        FROM colaboradores
+                                        ORDER BY id`);
         res.json(games);
     }
 
@@ -20,13 +18,12 @@ class AtendimentoController {
     }
 
     public async update(req: Request, res: Response): Promise<void> {
-        console.log(req.body);
         await pool.query(`UPDATE colaboradores 
                           SET
-                            setor = ${req.body.setor},
-                            chamadoatual = ${req.body.chamadoatual},
+                            setor = '${req.body.setor}',
+                            chamadoatual = '${req.body.chamadoatual}',
                             obs = '${req.body.obs}'
-                          WHERE id = ${req.body.id}`);
+                          WHERE id = '${req.body.id}'`);
         res.json({ message: "Cadastro atualizado" });
     }
 

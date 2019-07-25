@@ -34,7 +34,6 @@ class DataController {
     update(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const { id } = req.params;
-            const oldGame = req.body;
             yield database_1.default.query('UPDATE impressoras set ? WHERE id = ?', [req.body, id]);
             res.json({ message: "Updated" });
         });

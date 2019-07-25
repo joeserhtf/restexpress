@@ -10,9 +10,22 @@ class LoginController {
         res.json(games);
     }
 
+    public async login(req: Request, res: Response): Promise<void> {
+        //const { email } = req.body;
+        const  email  = 'joeser.fermiano@carajas.net.br';
+        const { password } = req.body;
+        console.log(password);
+        console.log(email);
+        const games = await pool.query(`SELECT * FROM colaboradores
+                                        WHERE email = '${email}'
+                                        AND password = '${password}';`);
+        res.json(games);
+    }
+
+
     public async create(req: Request, res: Response): Promise<void> {
         const result = await pool.query('INSERT INTO colaboradores set ?', [req.body]);
-        res.json({ message: 'Savlo' });
+        res.json({ message: 'Salvo' });
     }
 
     public async update(req: Request, res: Response): Promise<void> {

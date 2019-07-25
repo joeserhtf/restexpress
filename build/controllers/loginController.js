@@ -19,10 +19,23 @@ class LoginController {
             res.json(games);
         });
     }
+    login(req, res) {
+        return __awaiter(this, void 0, void 0, function* () {
+            //const { email } = req.body;
+            const email = 'joeser.fermiano@carajas.net.br';
+            const { password } = req.body;
+            console.log(password);
+            console.log(email);
+            const games = yield database_1.default.query(`SELECT * FROM colaboradores
+                                        WHERE email = '${email}'
+                                        AND password = '${password}';`);
+            res.json(games);
+        });
+    }
     create(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             const result = yield database_1.default.query('INSERT INTO colaboradores set ?', [req.body]);
-            res.json({ message: 'Savlo' });
+            res.json({ message: 'Salvo' });
         });
     }
     update(req, res) {
