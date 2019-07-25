@@ -8,7 +8,7 @@ export default {
    // }
 
     database: {
-        host: 'localhost',
+        host: 'localhostss',
         user: 'root',
         password: 'Lol1973452.',
         database: 'crj'
