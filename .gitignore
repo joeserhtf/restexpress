@@ -17,3 +17,4 @@
 # System Files
 src/keys.ts
 build/*
+node_modules/*

@@ -12,7 +12,7 @@ class LoginController {
 
     public async login(req: Request, res: Response): Promise<void> {
         //const { email } = req.body;
-        const  email  = 'joeser.fermiano@carajas.net.br';
+        const { email } = req.body;
         const { password } = req.body;
         console.log(password);
         console.log(email);
