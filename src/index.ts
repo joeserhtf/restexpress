@@ -12,6 +12,7 @@ import dataRoutes from './routes/dataRoutes';
 import custfixoRoutes from './routes/custfixoRoutes';
 import loginRoutes from './routes/loginRoutes';
 import scRoutes from './routes/scRoutes';
+import unidadesRoutes from './routes/unidadesRoutes';
 
 class Server {
 
@@ -42,6 +43,7 @@ class Server {
         this.app.use('/api/sc', scRoutes); //Sc
         this.app.use('/api/cf', custfixoRoutes); //cfs
         this.app.use('/api/auth', loginRoutes); //auth (login etc..)
+        this.app.use('/api/uni', unidadesRoutes); //Atendentes
     }
 
     start() {
