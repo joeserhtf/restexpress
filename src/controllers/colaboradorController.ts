@@ -6,12 +6,10 @@ import pool from '../database';
 class ColaboradorController {
 
     public async get(req: Request, res: Response): Promise<void> {
-        const col = await pool.query(`SELECT C.id, S.setor, U.unidade , K.cargo, nome, email 
+        const col = await pool.query(`SELECT C.id, S.setor, C.unidade , K.cargo, nome, email 
                                       FROM colaboradores as C
                                       INNER JOIN setor as S 
-                                      ON C.setor = S.id 
-                                      INNER JOIN unidade as U 
-                                      ON C.unidade = U.id 
+                                      ON C.setor = S.id
                                       INNER JOIN cargos as K
                                       ON C.cargo = K.id 
                                       ORDER BY C.id;`);

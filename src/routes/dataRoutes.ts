@@ -12,10 +12,10 @@ class DataRoutes {
     }
 
     config(): void {
-        this.router.get('/', dataController.list);
-        this.router.get('/ramal', dataController.ramal);
-        this.router.post('/', dataController.create);
-        this.router.put('/:id', dataController.update);
+        this.router.get('/', dataController.listimp);
+        this.router.get('/ramal', dataController.getramal);
+        this.router.post('/', dataController.createimp);
+        this.router.put('/', dataController.updateimp);
         this.router.delete('/:id', dataController.delete);
     }
 

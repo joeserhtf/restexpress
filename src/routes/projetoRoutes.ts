@@ -17,6 +17,8 @@ class ProjetoRoutes {
         this.router.get('/log/:id', projetoController.getLog);
         this.router.get('/:id', projetoController.getOne);
         this.router.post('/', projetoController.create);
+        this.router.post('/orc', projetoController.createorc);
+        this.router.post('/log', projetoController.createlog);
         this.router.put('/:id', projetoController.update);
     }
 
