@@ -13,6 +13,8 @@ import custfixoRoutes from './routes/custfixoRoutes';
 import loginRoutes from './routes/loginRoutes';
 import scRoutes from './routes/scRoutes';
 import unidadesRoutes from './routes/unidadesRoutes';
+import CxRoutes from './routes/cxRoutes'
+import oclRoutes from './routes/oclRoutes'
 
 class Server {
 
@@ -44,6 +46,8 @@ class Server {
         this.app.use('/api/cf', custfixoRoutes); //cfs
         this.app.use('/api/auth', loginRoutes); //auth (login etc..)
         this.app.use('/api/uni', unidadesRoutes); //Atendentes
+        this.app.use('/api/cx', CxRoutes); //Caixa
+        this.app.use('/api/ocl', oclRoutes); //Caixa
     }
 
     start() {

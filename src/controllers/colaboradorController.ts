@@ -6,7 +6,7 @@ import pool from '../database';
 class ColaboradorController {
 
     public async get(req: Request, res: Response): Promise<void> {
-        const col = await pool.query(`SELECT C.id, S.setor, C.unidade , K.cargo, nome, email 
+        const col = await pool.query(`SELECT C.id, S.setor, C.unidade , K.cargo, nome, email, ramal 
                                       FROM colaboradores as C
                                       INNER JOIN setor as S 
                                       ON C.setor = S.id

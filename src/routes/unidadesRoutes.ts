@@ -12,7 +12,10 @@ class unidadesRoutes {
 
     config() {
         this.router.get('/', unidadesController.get);
+        this.router.get('/s/', unidadesController.getS);
         this.router.put('/:id', unidadesController.update);
+        this.router.put('/s/:id', unidadesController.updateS);
+        this.router.put('/all/:id', unidadesController.updateAll);
     }
 
 }

@@ -5,7 +5,7 @@ import pool from '../database';
 class AtendimentoController {
 
     public async get(req: Request, res: Response): Promise<void> {
-        const games = await pool.query(`SELECT id, nome, unidade, presente, horario, nivel
+        const games = await pool.query(`SELECT id, nome, unidade, presente, horario, nivel, ramal
                                         FROM colaboradores
                                         WHERE nivel >= 2`);
         res.json(games);
@@ -14,6 +14,13 @@ class AtendimentoController {
     public async gets(req: Request, res: Response): Promise<void> {
         const games = await pool.query(`SELECT *
                                         FROM setor`);
+        res.json(games);
+    }
+
+    public async geta(req: Request, res: Response): Promise<void> {
+        const games = await pool.query(`SELECT id, nome, unidade, presente, horario, nivel, ramal
+                                        FROM colaboradores
+                                        WHERE nivel = 2`);
         res.json(games);
     }
 

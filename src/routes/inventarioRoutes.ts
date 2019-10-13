@@ -13,7 +13,9 @@ class InventarioRoutes {
 
     config(): void {
         this.router.get('/', inventarioController.list);
+        this.router.get('/m/', inventarioController.listM);
         this.router.post('/', inventarioController.create);
+        this.router.post('/m/', inventarioController.createM);
         this.router.put('/:id', inventarioController.update);
     }
 
