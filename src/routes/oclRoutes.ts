@@ -4,14 +4,18 @@ import oclController from '../controllers/oclController';
 
 class oclRoutes {
 
-    router: Router = Router();
+    public router: Router = Router();
 
     constructor() {
         this.config();
     }
 
     config() {
-        this.router.get('/', oclController.getSL1);
+        this.router.get('/', oclController.get);
+        this.router.get('/cxs', oclController.getcx);
+        this.router.post('/rcd', oclController.getrcd);
+        this.router.post('/orc', oclController.getorc);
+        this.router.post('/prod', oclController.getprod);
     }
 
 }

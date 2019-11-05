@@ -15,7 +15,6 @@ class TimesheetController {
         const { id } = req.params;
         const { data } = req.params;
         const games = await pool.query(`SELECT * FROM timesheet WHERE userid = ? AND datat LIKE "${data}%" `, [id] );
-        console.log(req.params);
         res.json(games);
     }
 

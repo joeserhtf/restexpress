@@ -11,7 +11,7 @@ class cxRoutes {
     }
 
     config() {
-        this.router.get('/', cxController.get);
+        //this.router.get('/', cxController.get);
     }
 
 }

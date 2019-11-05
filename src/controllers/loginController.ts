@@ -14,8 +14,8 @@ class LoginController {
         //const { email } = req.body;
         const { email } = req.body;
         const { password } = req.body;
-        console.log(password);
-        console.log(email);
+   //     console.log(password);
+   //     console.log(email);
         const games = await pool.query(`SELECT * FROM colaboradores
                                         WHERE email = '${email}'
                                         AND password = '${password}';`);

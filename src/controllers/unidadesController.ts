@@ -6,7 +6,7 @@ import pool from '../database';
 class unidadesController {
 
     public async get(req: Request, res: Response): Promise<void> {
-        const col = await pool.query(`SELECT id, unidade, DATE_FORMAT(cxatu, '%Y-%m-%dT%H:%i') as cxatu, lstatus 
+        const col = await pool.query(`SELECT id, unidade, DATE_FORMAT(cxatu, '%Y-%m-%dT%H:%i') as cxatu, lstatus, quantcx
                                       FROM unidade;`);
         res.json(col);
     }
@@ -18,8 +18,7 @@ class unidadesController {
     }
 
     public async getcx() {
-        const execFile = require('child_process').execFile;
-        return(execFile('Z:\\joeser.bat'))
+        return(console.log("CX"))
     }
 
     public async update(req: Request, res: Response): Promise<void> {
