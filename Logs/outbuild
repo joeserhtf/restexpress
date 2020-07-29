@@ -1,0 +1,1606 @@
+
+> restsql@1.0.0 build C:\service
+> tsc -w
+
+c8:16:46 - Starting compilation in watch mode...
+
+
+8:16:49 - Found 0 errors. Watching for file changes.
+c8:18:06 - File change detected. Starting incremental compilation...
+
+
+8:18:06 - Found 0 errors. Watching for file changes.
+c8:22:17 - File change detected. Starting incremental compilation...
+
+
+8:22:17 - Found 0 errors. Watching for file changes.
+c8:22:19 - File change detected. Starting incremental compilation...
+
+
+8:22:19 - Found 0 errors. Watching for file changes.
+c8:23:17 - File change detected. Starting incremental compilation...
+
+
+8:23:17 - Found 0 errors. Watching for file changes.
+c8:23:18 - File change detected. Starting incremental compilation...
+
+
+8:23:18 - Found 0 errors. Watching for file changes.
+c8:24:57 - File change detected. Starting incremental compilation...
+
+
+8:24:57 - Found 0 errors. Watching for file changes.
+c8:24:59 - File change detected. Starting incremental compilation...
+
+
+8:24:59 - Found 0 errors. Watching for file changes.
+c8:24:59 - File change detected. Starting incremental compilation...
+
+
+8:24:59 - Found 0 errors. Watching for file changes.
+c8:30:19 - File change detected. Starting incremental compilation...
+
+
+8:30:19 - Found 0 errors. Watching for file changes.
+c8:30:20 - File change detected. Starting incremental compilation...
+
+
+8:30:20 - Found 0 errors. Watching for file changes.
+c8:30:21 - File change detected. Starting incremental compilation...
+
+
+8:30:21 - Found 0 errors. Watching for file changes.
+c8:30:38 - File change detected. Starting incremental compilation...
+
+
+8:30:38 - Found 0 errors. Watching for file changes.
+c8:30:39 - File change detected. Starting incremental compilation...
+
+
+8:30:39 - Found 0 errors. Watching for file changes.
+c8:32:26 - File change detected. Starting incremental compilation...
+
+
+8:32:26 - Found 0 errors. Watching for file changes.
+c8:32:27 - File change detected. Starting incremental compilation...
+
+
+8:32:27 - Found 0 errors. Watching for file changes.
+c8:39:16 - File change detected. Starting incremental compilation...
+
+
+8:39:16 - Found 0 errors. Watching for file changes.
+c8:39:17 - File change detected. Starting incremental compilation...
+
+
+8:39:17 - Found 0 errors. Watching for file changes.
+c8:39:18 - File change detected. Starting incremental compilation...
+
+
+8:39:18 - Found 0 errors. Watching for file changes.
+c8:45:46 - File change detected. Starting incremental compilation...
+
+
+8:45:46 - Found 0 errors. Watching for file changes.
+c8:45:48 - File change detected. Starting incremental compilation...
+
+
+8:45:48 - Found 0 errors. Watching for file changes.
+c8:45:48 - File change detected. Starting incremental compilation...
+
+
+8:45:48 - Found 0 errors. Watching for file changes.
+c8:49:47 - File change detected. Starting incremental compilation...
+
+
+8:49:47 - Found 0 errors. Watching for file changes.
+c8:49:48 - File change detected. Starting incremental compilation...
+
+
+8:49:48 - Found 0 errors. Watching for file changes.
+c8:49:52 - File change detected. Starting incremental compilation...
+
+
+8:49:52 - Found 0 errors. Watching for file changes.
+c8:49:57 - File change detected. Starting incremental compilation...
+
+
+8:49:57 - Found 0 errors. Watching for file changes.
+c9:13:00 - File change detected. Starting incremental compilation...
+
+
+9:13:00 - Found 0 errors. Watching for file changes.
+c9:13:01 - File change detected. Starting incremental compilation...
+
+
+9:13:01 - Found 0 errors. Watching for file changes.
+c9:13:03 - File change detected. Starting incremental compilation...
+
+
+9:13:03 - Found 0 errors. Watching for file changes.
+c9:13:03 - File change detected. Starting incremental compilation...
+
+
+9:13:03 - Found 0 errors. Watching for file changes.
+c9:13:04 - File change detected. Starting incremental compilation...
+
+
+9:13:04 - Found 0 errors. Watching for file changes.
+c9:13:05 - File change detected. Starting incremental compilation...
+
+
+9:13:05 - Found 0 errors. Watching for file changes.
+c9:13:10 - File change detected. Starting incremental compilation...
+
+
+9:13:10 - Found 0 errors. Watching for file changes.
+c9:21:50 - File change detected. Starting incremental compilation...
+
+
+9:21:51 - Found 0 errors. Watching for file changes.
+c9:22:35 - File change detected. Starting incremental compilation...
+
+
+9:22:35 - Found 0 errors. Watching for file changes.
+c9:36:45 - File change detected. Starting incremental compilation...
+
+
+9:36:45 - Found 0 errors. Watching for file changes.
+c9:37:04 - File change detected. Starting incremental compilation...
+
+
+9:37:05 - Found 0 errors. Watching for file changes.
+c9:47:06 - File change detected. Starting incremental compilation...
+
+
+9:47:06 - Found 0 errors. Watching for file changes.
+c9:51:44 - File change detected. Starting incremental compilation...
+
+
+9:51:44 - Found 0 errors. Watching for file changes.
+c16:47:06 - File change detected. Starting incremental compilation...
+
+
+16:47:06 - Found 0 errors. Watching for file changes.
+c16:48:24 - File change detected. Starting incremental compilation...
+
+src/controllers/oclController.ts(50,33): error TS1109: Expression expected.
+src/controllers/oclController.ts(54,34): error TS1005: ';' expected.
+src/controllers/oclController.ts(54,40): error TS1005: ';' expected.
+src/controllers/oclController.ts(100,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(100,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(100,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(100,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(101,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(101,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(102,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(102,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(103,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(103,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(104,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,56): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,61): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,63): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(104,71): error TS1005: ';' expected.
+src/controllers/oclController.ts(105,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(106,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(107,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(108,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(153,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(153,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(153,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(153,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(154,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(154,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(155,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(155,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(156,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(156,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(157,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,56): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,61): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,63): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(157,71): error TS1005: ';' expected.
+src/controllers/oclController.ts(158,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(159,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(160,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(161,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(205,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(206,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(206,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(206,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(206,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(207,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(207,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(208,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(208,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(209,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(209,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(210,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,65): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,72): error TS1005: ';' expected.
+src/controllers/oclController.ts(210,75): error TS1005: ';' expected.
+src/controllers/oclController.ts(211,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(212,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(213,21): error TS1005: ';' expected.
+src/controllers/oclController.ts(214,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(215,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(217,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(217,26): error TS1005: ';' expected.
+src/controllers/oclController.ts(256,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(258,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(259,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(264,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(264,41): error TS1005: ';' expected.
+src/controllers/oclController.ts(268,38): error TS1005: ';' expected.
+src/controllers/oclController.ts(268,45): error TS1005: ';' expected.
+src/controllers/oclController.ts(269,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(270,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(271,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(272,66): error TS1005: ',' expected.
+src/controllers/oclController.ts(272,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(273,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(273,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(273,57): error TS1005: ';' expected.
+src/controllers/oclController.ts(274,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(275,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(276,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(277,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(278,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(314,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(316,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(317,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(322,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(322,41): error TS1005: ';' expected.
+src/controllers/oclController.ts(324,104): error TS1005: ';' expected.
+src/controllers/oclController.ts(324,107): error TS1005: ';' expected.
+src/controllers/oclController.ts(325,46): error TS1005: ';' expected.
+src/controllers/oclController.ts(326,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(327,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(328,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(364,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(366,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(367,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(372,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,76): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,81): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,47): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(376,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(376,47): error TS1005: ';' expected.
+src/controllers/oclController.ts(376,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(377,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(420,26): error TS1005: ';' expected.
+src/controllers/oclController.ts(422,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(423,19): error TS1109: Expression expected.
+src/controllers/oclController.ts(423,20): error TS1109: Expression expected.
+src/controllers/oclController.ts(423,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(424,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(425,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(426,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(427,24): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,29): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,52): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,59): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,64): error TS1005: ';' expected.
+src/controllers/oclController.ts(429,14): error TS1005: ';' expected.
+src/controllers/oclController.ts(429,21): error TS1005: ';' expected.
+src/controllers/oclController.ts(431,18): error TS1005: ';' expected.
+src/controllers/oclController.ts(431,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(431,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(432,16): error TS1005: ';' expected.
+src/controllers/oclController.ts(433,17): error TS1005: ';' expected.
+src/controllers/oclController.ts(435,15): error TS1005: ';' expected.
+src/controllers/oclController.ts(437,13): error TS1005: ';' expected.
+src/controllers/oclController.ts(440,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(440,32): error TS1005: ';' expected.
+src/controllers/oclController.ts(444,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(444,32): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,27): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,57): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,83): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,87): error TS1005: ';' expected.
+src/controllers/oclController.ts(448,29): error TS1005: ';' expected.
+src/controllers/oclController.ts(449,31): error TS1005: ';' expected.
+src/controllers/oclController.ts(449,34): error TS1005: ';' expected.
+src/controllers/oclController.ts(485,30): error TS1160: Unterminated template literal.
+
+16:48:24 - Found 217 errors. Watching for file changes.
+c16:48:39 - File change detected. Starting incremental compilation...
+
+src/controllers/oclController.ts(50,33): error TS1109: Expression expected.
+src/controllers/oclController.ts(54,34): error TS1005: ';' expected.
+src/controllers/oclController.ts(54,40): error TS1005: ';' expected.
+src/controllers/oclController.ts(100,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(100,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(100,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(100,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(101,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(101,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(102,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(102,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(103,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(103,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(104,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,56): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,61): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,63): error TS1005: ',' expected.
+src/controllers/oclController.ts(104,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(104,71): error TS1005: ';' expected.
+src/controllers/oclController.ts(105,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(106,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(107,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(108,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(153,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(153,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(153,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(153,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(154,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(154,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(155,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(155,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(156,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(156,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(157,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,56): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,61): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,63): error TS1005: ',' expected.
+src/controllers/oclController.ts(157,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(157,71): error TS1005: ';' expected.
+src/controllers/oclController.ts(158,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(159,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(160,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(161,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(205,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(206,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(206,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(206,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(206,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(207,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(207,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(208,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(208,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(209,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(209,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(210,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,65): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(210,72): error TS1005: ';' expected.
+src/controllers/oclController.ts(210,75): error TS1005: ';' expected.
+src/controllers/oclController.ts(211,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(212,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(213,21): error TS1005: ';' expected.
+src/controllers/oclController.ts(214,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(215,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(217,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(217,26): error TS1005: ';' expected.
+src/controllers/oclController.ts(256,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(258,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(259,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(264,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(264,41): error TS1005: ';' expected.
+src/controllers/oclController.ts(268,38): error TS1005: ';' expected.
+src/controllers/oclController.ts(268,45): error TS1005: ';' expected.
+src/controllers/oclController.ts(269,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(270,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(271,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(272,66): error TS1005: ',' expected.
+src/controllers/oclController.ts(272,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(273,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(273,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(273,57): error TS1005: ';' expected.
+src/controllers/oclController.ts(274,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(275,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(276,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(277,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(278,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(314,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(316,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(317,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(322,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(322,41): error TS1005: ';' expected.
+src/controllers/oclController.ts(324,104): error TS1005: ';' expected.
+src/controllers/oclController.ts(324,107): error TS1005: ';' expected.
+src/controllers/oclController.ts(325,46): error TS1005: ';' expected.
+src/controllers/oclController.ts(326,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(327,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(328,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(364,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(366,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(367,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(372,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,76): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,81): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,47): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(376,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(376,47): error TS1005: ';' expected.
+src/controllers/oclController.ts(376,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(377,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(420,26): error TS1005: ';' expected.
+src/controllers/oclController.ts(422,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(423,19): error TS1109: Expression expected.
+src/controllers/oclController.ts(423,20): error TS1109: Expression expected.
+src/controllers/oclController.ts(423,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(424,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(425,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(426,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(427,24): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,29): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,52): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,59): error TS1005: ',' expected.
+src/controllers/oclController.ts(427,64): error TS1005: ';' expected.
+src/controllers/oclController.ts(429,14): error TS1005: ';' expected.
+src/controllers/oclController.ts(429,21): error TS1005: ';' expected.
+src/controllers/oclController.ts(431,18): error TS1005: ';' expected.
+src/controllers/oclController.ts(431,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(431,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(432,16): error TS1005: ';' expected.
+src/controllers/oclController.ts(433,17): error TS1005: ';' expected.
+src/controllers/oclController.ts(435,15): error TS1005: ';' expected.
+src/controllers/oclController.ts(437,13): error TS1005: ';' expected.
+src/controllers/oclController.ts(440,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(440,32): error TS1005: ';' expected.
+src/controllers/oclController.ts(444,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(444,32): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,27): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,57): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,83): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,87): error TS1005: ';' expected.
+src/controllers/oclController.ts(448,29): error TS1005: ';' expected.
+src/controllers/oclController.ts(449,31): error TS1005: ';' expected.
+src/controllers/oclController.ts(449,34): error TS1005: ';' expected.
+src/controllers/oclController.ts(485,30): error TS1160: Unterminated template literal.
+
+16:48:39 - Found 217 errors. Watching for file changes.
+c16:50:23 - File change detected. Starting incremental compilation...
+
+src/controllers/oclController.ts(53,43): error TS1005: ';' expected.
+src/controllers/oclController.ts(53,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(99,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(99,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(99,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(99,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(100,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(100,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(101,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(101,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(102,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(102,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(103,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,56): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,61): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,63): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(103,71): error TS1005: ';' expected.
+src/controllers/oclController.ts(104,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(105,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(106,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(107,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(152,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(152,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(152,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(152,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(153,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(153,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(154,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(154,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(155,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(155,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(156,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,56): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,61): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,63): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(156,71): error TS1005: ';' expected.
+src/controllers/oclController.ts(157,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(158,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(159,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(160,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(204,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(205,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(205,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(205,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(205,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(206,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(206,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(207,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(207,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(208,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(208,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(209,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,65): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,72): error TS1005: ';' expected.
+src/controllers/oclController.ts(209,75): error TS1005: ';' expected.
+src/controllers/oclController.ts(210,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(211,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(212,21): error TS1005: ';' expected.
+src/controllers/oclController.ts(213,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(214,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(216,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(216,26): error TS1005: ';' expected.
+src/controllers/oclController.ts(255,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(257,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(258,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(263,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(263,41): error TS1005: ';' expected.
+src/controllers/oclController.ts(267,38): error TS1005: ';' expected.
+src/controllers/oclController.ts(267,45): error TS1005: ';' expected.
+src/controllers/oclController.ts(268,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(269,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(270,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(271,66): error TS1005: ',' expected.
+src/controllers/oclController.ts(271,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(272,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(272,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(272,57): error TS1005: ';' expected.
+src/controllers/oclController.ts(273,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(274,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(275,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(276,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(277,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(313,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(315,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(316,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(321,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(321,41): error TS1005: ';' expected.
+src/controllers/oclController.ts(323,104): error TS1005: ';' expected.
+src/controllers/oclController.ts(323,107): error TS1005: ';' expected.
+src/controllers/oclController.ts(324,46): error TS1005: ';' expected.
+src/controllers/oclController.ts(325,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(326,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(327,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(363,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(365,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(366,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(371,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(372,76): error TS1005: ';' expected.
+src/controllers/oclController.ts(372,81): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,47): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,47): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(376,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(419,26): error TS1005: ';' expected.
+src/controllers/oclController.ts(421,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(422,19): error TS1109: Expression expected.
+src/controllers/oclController.ts(422,20): error TS1109: Expression expected.
+src/controllers/oclController.ts(422,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(423,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(424,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(425,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(426,24): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,29): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,52): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,59): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,64): error TS1005: ';' expected.
+src/controllers/oclController.ts(428,14): error TS1005: ';' expected.
+src/controllers/oclController.ts(428,21): error TS1005: ';' expected.
+src/controllers/oclController.ts(430,18): error TS1005: ';' expected.
+src/controllers/oclController.ts(430,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(430,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(431,16): error TS1005: ';' expected.
+src/controllers/oclController.ts(432,17): error TS1005: ';' expected.
+src/controllers/oclController.ts(434,15): error TS1005: ';' expected.
+src/controllers/oclController.ts(436,13): error TS1005: ';' expected.
+src/controllers/oclController.ts(439,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(439,32): error TS1005: ';' expected.
+src/controllers/oclController.ts(443,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(443,32): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,27): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,57): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,83): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,87): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,29): error TS1005: ';' expected.
+src/controllers/oclController.ts(448,31): error TS1005: ';' expected.
+src/controllers/oclController.ts(448,34): error TS1005: ';' expected.
+src/controllers/oclController.ts(484,30): error TS1160: Unterminated template literal.
+
+16:50:23 - Found 216 errors. Watching for file changes.
+c16:51:17 - File change detected. Starting incremental compilation...
+
+src/controllers/oclController.ts(53,43): error TS1005: ';' expected.
+src/controllers/oclController.ts(53,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(99,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(99,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(99,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(99,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(100,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(100,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(100,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(101,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(101,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(101,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(102,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(102,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(102,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(103,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,56): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,61): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,63): error TS1005: ',' expected.
+src/controllers/oclController.ts(103,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(103,71): error TS1005: ';' expected.
+src/controllers/oclController.ts(104,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(105,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(106,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(107,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(152,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(152,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(152,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(152,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(153,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(153,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(153,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(154,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(154,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(154,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(155,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(155,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(155,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(156,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,56): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,61): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,63): error TS1005: ',' expected.
+src/controllers/oclController.ts(156,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(156,71): error TS1005: ';' expected.
+src/controllers/oclController.ts(157,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(158,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(159,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(160,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(204,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(205,27): error TS1109: Expression expected.
+src/controllers/oclController.ts(205,28): error TS1109: Expression expected.
+src/controllers/oclController.ts(205,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(205,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(206,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,58): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(206,65): error TS1005: ';' expected.
+src/controllers/oclController.ts(206,68): error TS1005: ';' expected.
+src/controllers/oclController.ts(207,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(207,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(207,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(208,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,50): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,53): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,62): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(208,74): error TS1005: ';' expected.
+src/controllers/oclController.ts(208,77): error TS1005: ';' expected.
+src/controllers/oclController.ts(209,32): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,37): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,60): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,65): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,67): error TS1005: ',' expected.
+src/controllers/oclController.ts(209,72): error TS1005: ';' expected.
+src/controllers/oclController.ts(209,75): error TS1005: ';' expected.
+src/controllers/oclController.ts(210,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(211,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(212,21): error TS1005: ';' expected.
+src/controllers/oclController.ts(213,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(214,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(216,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(216,26): error TS1005: ';' expected.
+src/controllers/oclController.ts(255,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(257,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(258,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(263,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(263,41): error TS1005: ';' expected.
+src/controllers/oclController.ts(267,38): error TS1005: ';' expected.
+src/controllers/oclController.ts(267,45): error TS1005: ';' expected.
+src/controllers/oclController.ts(268,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(269,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(270,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(271,66): error TS1005: ',' expected.
+src/controllers/oclController.ts(271,69): error TS1005: ',' expected.
+src/controllers/oclController.ts(272,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(272,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(272,57): error TS1005: ';' expected.
+src/controllers/oclController.ts(273,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(274,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(275,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(276,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(277,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(313,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(315,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(316,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(321,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(321,41): error TS1005: ';' expected.
+src/controllers/oclController.ts(323,104): error TS1005: ';' expected.
+src/controllers/oclController.ts(323,107): error TS1005: ';' expected.
+src/controllers/oclController.ts(324,46): error TS1005: ';' expected.
+src/controllers/oclController.ts(325,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(326,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(327,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(363,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(365,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(366,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(371,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(372,76): error TS1005: ';' expected.
+src/controllers/oclController.ts(372,81): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,39): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,47): error TS1005: ';' expected.
+src/controllers/oclController.ts(373,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,44): error TS1005: ';' expected.
+src/controllers/oclController.ts(374,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,47): error TS1005: ';' expected.
+src/controllers/oclController.ts(375,52): error TS1005: ';' expected.
+src/controllers/oclController.ts(376,37): error TS1005: ';' expected.
+src/controllers/oclController.ts(419,26): error TS1005: ';' expected.
+src/controllers/oclController.ts(421,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(422,19): error TS1109: Expression expected.
+src/controllers/oclController.ts(422,20): error TS1109: Expression expected.
+src/controllers/oclController.ts(422,22): error TS1005: ';' expected.
+src/controllers/oclController.ts(423,30): error TS1005: ';' expected.
+src/controllers/oclController.ts(424,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(425,33): error TS1005: ';' expected.
+src/controllers/oclController.ts(426,24): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,29): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,52): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,57): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,59): error TS1005: ',' expected.
+src/controllers/oclController.ts(426,64): error TS1005: ';' expected.
+src/controllers/oclController.ts(428,14): error TS1005: ';' expected.
+src/controllers/oclController.ts(428,21): error TS1005: ';' expected.
+src/controllers/oclController.ts(430,18): error TS1005: ';' expected.
+src/controllers/oclController.ts(430,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(430,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(431,16): error TS1005: ';' expected.
+src/controllers/oclController.ts(432,17): error TS1005: ';' expected.
+src/controllers/oclController.ts(434,15): error TS1005: ';' expected.
+src/controllers/oclController.ts(436,13): error TS1005: ';' expected.
+src/controllers/oclController.ts(439,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(439,32): error TS1005: ';' expected.
+src/controllers/oclController.ts(443,28): error TS1005: ';' expected.
+src/controllers/oclController.ts(443,32): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,23): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,27): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,49): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,57): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,83): error TS1005: ';' expected.
+src/controllers/oclController.ts(446,87): error TS1005: ';' expected.
+src/controllers/oclController.ts(447,29): error TS1005: ';' expected.
+src/controllers/oclController.ts(448,31): error TS1005: ';' expected.
+src/controllers/oclController.ts(448,34): error TS1005: ';' expected.
+src/controllers/oclController.ts(484,30): error TS1160: Unterminated template literal.
+
+16:51:17 - Found 216 errors. Watching for file changes.
+c16:53:01 - File change detected. Starting incremental compilation...
+
+
+16:53:01 - Found 0 errors. Watching for file changes.
+c16:53:20 - File change detected. Starting incremental compilation...
+
+
+16:53:20 - Found 0 errors. Watching for file changes.
+c16:53:44 - File change detected. Starting incremental compilation...
+
+src/controllers/oclController.ts(19,40): error TS1109: Expression expected.
+src/controllers/oclController.ts(19,44): error TS1005: ':' expected.
+
+16:53:44 - Found 2 errors. Watching for file changes.
+c16:53:53 - File change detected. Starting incremental compilation...
+
+
+16:53:53 - Found 0 errors. Watching for file changes.
+c16:53:55 - File change detected. Starting incremental compilation...
+
+
+16:53:55 - Found 0 errors. Watching for file changes.
+c16:54:23 - File change detected. Starting incremental compilation...
+
+
+16:54:23 - Found 0 errors. Watching for file changes.
+c16:54:41 - File change detected. Starting incremental compilation...
+
+
+16:54:42 - Found 0 errors. Watching for file changes.
+c16:57:08 - File change detected. Starting incremental compilation...
+
+
+16:57:08 - Found 0 errors. Watching for file changes.
+c16:58:17 - File change detected. Starting incremental compilation...
+
+
+16:58:17 - Found 0 errors. Watching for file changes.
+c16:58:36 - File change detected. Starting incremental compilation...
+
+
+16:58:36 - Found 0 errors. Watching for file changes.
+c16:59:47 - File change detected. Starting incremental compilation...
+
+
+16:59:47 - Found 0 errors. Watching for file changes.
+c17:00:32 - File change detected. Starting incremental compilation...
+
+src/controllers/oclController.ts(242,16): error TS2304: Cannot find name 'filial'.
+src/controllers/oclController.ts(243,62): error TS2304: Cannot find name 'filial'.
+
+17:00:32 - Found 2 errors. Watching for file changes.
+c17:19:29 - File change detected. Starting incremental compilation...
+
+
+17:19:29 - Found 0 errors. Watching for file changes.
+c10:45:12 - File change detected. Starting incremental compilation...
+
+
+10:45:12 - Found 0 errors. Watching for file changes.
+c10:45:23 - File change detected. Starting incremental compilation...
+
+
+10:45:23 - Found 0 errors. Watching for file changes.
+c10:45:35 - File change detected. Starting incremental compilation...
+
+
+10:45:35 - Found 0 errors. Watching for file changes.
+c10:49:15 - File change detected. Starting incremental compilation...
+
+
+10:49:15 - Found 0 errors. Watching for file changes.
+c10:51:15 - File change detected. Starting incremental compilation...
+
+
+10:51:15 - Found 0 errors. Watching for file changes.
+c10:52:23 - File change detected. Starting incremental compilation...
+
+
+10:52:23 - Found 0 errors. Watching for file changes.
+c11:16:40 - File change detected. Starting incremental compilation...
+
+
+11:16:40 - Found 0 errors. Watching for file changes.
+c11:16:55 - File change detected. Starting incremental compilation...
+
+
+11:16:55 - Found 0 errors. Watching for file changes.
+c11:19:51 - File change detected. Starting incremental compilation...
+
+
+11:19:51 - Found 0 errors. Watching for file changes.
+c11:20:09 - File change detected. Starting incremental compilation...
+
+
+11:20:09 - Found 0 errors. Watching for file changes.
+c11:25:19 - File change detected. Starting incremental compilation...
+
+
+11:25:19 - Found 0 errors. Watching for file changes.
+c11:25:25 - File change detected. Starting incremental compilation...
+
+
+11:25:25 - Found 0 errors. Watching for file changes.
+c11:25:34 - File change detected. Starting incremental compilation...
+
+
+11:25:34 - Found 0 errors. Watching for file changes.
+c11:25:43 - File change detected. Starting incremental compilation...
+
+
+11:25:44 - Found 0 errors. Watching for file changes.
+c11:25:44 - File change detected. Starting incremental compilation...
+
+
+11:25:44 - Found 0 errors. Watching for file changes.
+c11:26:09 - File change detected. Starting incremental compilation...
+
+
+11:26:09 - Found 0 errors. Watching for file changes.
+c11:26:20 - File change detected. Starting incremental compilation...
+
+
+11:26:20 - Found 0 errors. Watching for file changes.
+c11:26:22 - File change detected. Starting incremental compilation...
+
+
+11:26:22 - Found 0 errors. Watching for file changes.
+c11:26:23 - File change detected. Starting incremental compilation...
+
+
+11:26:23 - Found 0 errors. Watching for file changes.
+c11:30:18 - File change detected. Starting incremental compilation...
+
+
+11:30:18 - Found 0 errors. Watching for file changes.
+c11:32:04 - File change detected. Starting incremental compilation...
+
+
+11:32:05 - Found 0 errors. Watching for file changes.
+c11:33:18 - File change detected. Starting incremental compilation...
+
+
+11:33:19 - Found 0 errors. Watching for file changes.
+c11:40:42 - File change detected. Starting incremental compilation...
+
+
+11:40:42 - Found 0 errors. Watching for file changes.
+c11:40:47 - File change detected. Starting incremental compilation...
+
+
+11:40:47 - Found 0 errors. Watching for file changes.
+c11:51:28 - File change detected. Starting incremental compilation...
+
+
+11:51:28 - Found 0 errors. Watching for file changes.
+c11:51:29 - File change detected. Starting incremental compilation...
+
+
+11:51:29 - Found 0 errors. Watching for file changes.
+c11:51:31 - File change detected. Starting incremental compilation...
+
+
+11:51:31 - Found 0 errors. Watching for file changes.
+c11:51:32 - File change detected. Starting incremental compilation...
+
+
+11:51:32 - Found 0 errors. Watching for file changes.
+c11:52:59 - File change detected. Starting incremental compilation...
+
+
+11:52:59 - Found 0 errors. Watching for file changes.
+c11:56:32 - File change detected. Starting incremental compilation...
+
+
+11:56:32 - Found 0 errors. Watching for file changes.
+c11:57:27 - File change detected. Starting incremental compilation...
+
+
+11:57:27 - Found 0 errors. Watching for file changes.
+c11:57:36 - File change detected. Starting incremental compilation...
+
+
+11:57:36 - Found 0 errors. Watching for file changes.
+c11:59:20 - File change detected. Starting incremental compilation...
+
+
+11:59:20 - Found 0 errors. Watching for file changes.
+c12:01:39 - File change detected. Starting incremental compilation...
+
+
+12:01:40 - Found 0 errors. Watching for file changes.
+c12:01:50 - File change detected. Starting incremental compilation...
+
+
+12:01:50 - Found 0 errors. Watching for file changes.
+c12:03:19 - File change detected. Starting incremental compilation...
+
+
+12:03:19 - Found 0 errors. Watching for file changes.
+c8:52:54 - File change detected. Starting incremental compilation...
+
+
+8:52:54 - Found 0 errors. Watching for file changes.
+Deseja finalizar o arquivo em lotes (S/N)? 
+> restsql@1.0.0 build C:\service
+> tsc -w
+
+c11:23:56 - Starting compilation in watch mode...
+
+
+11:24:00 - Found 0 errors. Watching for file changes.
+c11:34:06 - File change detected. Starting incremental compilation...
+
+
+11:34:06 - Found 0 errors. Watching for file changes.
+c11:34:13 - File change detected. Starting incremental compilation...
+
+src/routes/oclRoutes.ts(21,54): error TS2339: Property 'getOcorrencias' does not exist on type 'oclController'.
+
+11:34:13 - Found 1 error. Watching for file changes.
+c11:35:40 - File change detected. Starting incremental compilation...
+
+
+11:35:40 - Found 0 errors. Watching for file changes.
+c11:35:52 - File change detected. Starting incremental compilation...
+
+src/controllers/oclController.ts(749,17): error TS2304: Cannot find name 'romaneio'.
+src/controllers/oclController.ts(750,50): error TS2304: Cannot find name 'romaneio'.
+src/controllers/oclController.ts(753,17): error TS2304: Cannot find name 'cDataSaida'.
+src/controllers/oclController.ts(759,17): error TS2304: Cannot find name 'cInicioP8'.
+src/controllers/oclController.ts(765,17): error TS2304: Cannot find name 'cCarregado'.
+src/controllers/oclController.ts(771,17): error TS2304: Cannot find name 'cEntregue'.
+src/controllers/oclController.ts(777,17): error TS2304: Cannot find name 'cRetornoP8'.
+
+11:35:53 - Found 7 errors. Watching for file changes.
+c11:37:22 - File change detected. Starting incremental compilation...
+
+
+11:37:22 - Found 0 errors. Watching for file changes.
+c11:37:29 - File change detected. Starting incremental compilation...
+
+
+11:37:29 - Found 0 errors. Watching for file changes.
+c11:37:44 - File change detected. Starting incremental compilation...
+
+
+11:37:44 - Found 0 errors. Watching for file changes.
+c11:37:53 - File change detected. Starting incremental compilation...
+
+
+11:37:53 - Found 0 errors. Watching for file changes.
+c11:37:59 - File change detected. Starting incremental compilation...
+
+
+11:37:59 - Found 0 errors. Watching for file changes.
+c11:38:01 - File change detected. Starting incremental compilation...
+
+
+11:38:01 - Found 0 errors. Watching for file changes.
+c11:38:13 - File change detected. Starting incremental compilation...
+
+
+11:38:13 - Found 0 errors. Watching for file changes.
+c11:40:48 - File change detected. Starting incremental compilation...
+
+
+11:40:48 - Found 0 errors. Watching for file changes.
+c11:43:08 - File change detected. Starting incremental compilation...
+
+
+11:43:08 - Found 0 errors. Watching for file changes.
+c11:46:38 - File change detected. Starting incremental compilation...
+
+
+11:46:38 - Found 0 errors. Watching for file changes.
+c16:08:00 - File change detected. Starting incremental compilation...
+
+
+16:08:00 - Found 0 errors. Watching for file changes.
+c16:08:57 - File change detected. Starting incremental compilation...
+
+
+16:08:57 - Found 0 errors. Watching for file changes.
+c8:42:01 - File change detected. Starting incremental compilation...
+
+
+8:42:01 - Found 0 errors. Watching for file changes.
+c8:42:35 - File change detected. Starting incremental compilation...
+
+
+8:42:35 - Found 0 errors. Watching for file changes.
+c8:42:47 - File change detected. Starting incremental compilation...
+
+
+8:42:47 - Found 0 errors. Watching for file changes.
+c8:42:59 - File change detected. Starting incremental compilation...
+
+
+8:42:59 - Found 0 errors. Watching for file changes.
+c8:44:10 - File change detected. Starting incremental compilation...
+
+
+8:44:10 - Found 0 errors. Watching for file changes.
+c8:44:31 - File change detected. Starting incremental compilation...
+
+
+8:44:31 - Found 0 errors. Watching for file changes.
+c8:44:49 - File change detected. Starting incremental compilation...
+
+
+8:44:49 - Found 0 errors. Watching for file changes.
+c8:46:29 - File change detected. Starting incremental compilation...
+
+
+8:46:29 - Found 0 errors. Watching for file changes.
+c8:47:56 - File change detected. Starting incremental compilation...
+
+src/controllers/oclController.ts(812,16): error TS2304: Cannot find name 'filial'.
+src/controllers/oclController.ts(813,43): error TS2304: Cannot find name 'filial'.
+
+8:47:56 - Found 2 errors. Watching for file changes.
+c8:48:40 - File change detected. Starting incremental compilation...
+
+src/controllers/oclController.ts(812,16): error TS2304: Cannot find name 'filial'.
+src/controllers/oclController.ts(813,43): error TS2304: Cannot find name 'filial'.
+
+8:48:40 - Found 2 errors. Watching for file changes.
+c8:49:17 - File change detected. Starting incremental compilation...
+
+
+8:49:17 - Found 0 errors. Watching for file changes.
+c8:49:22 - File change detected. Starting incremental compilation...
+
+
+8:49:22 - Found 0 errors. Watching for file changes.
+c8:50:02 - File change detected. Starting incremental compilation...
+
+
+8:50:02 - Found 0 errors. Watching for file changes.
+c8:51:09 - File change detected. Starting incremental compilation...
+
+
+8:51:09 - Found 0 errors. Watching for file changes.
+c8:52:35 - File change detected. Starting incremental compilation...
+
+
+8:52:35 - Found 0 errors. Watching for file changes.
+c10:03:51 - File change detected. Starting incremental compilation...
+
+
+10:03:51 - Found 0 errors. Watching for file changes.
+c11:27:35 - File change detected. Starting incremental compilation...
+
+
+11:27:35 - Found 0 errors. Watching for file changes.
+c11:27:49 - File change detected. Starting incremental compilation...
+
+
+11:27:49 - Found 0 errors. Watching for file changes.
+c11:27:55 - File change detected. Starting incremental compilation...
+
+
+11:27:55 - Found 0 errors. Watching for file changes.
+c11:28:11 - File change detected. Starting incremental compilation...
+
+
+11:28:11 - Found 0 errors. Watching for file changes.
+c11:28:25 - File change detected. Starting incremental compilation...
+
+
+11:28:25 - Found 0 errors. Watching for file changes.
+c11:29:23 - File change detected. Starting incremental compilation...
+
+
+11:29:23 - Found 0 errors. Watching for file changes.
+c11:31:33 - File change detected. Starting incremental compilation...
+
+
+11:31:34 - Found 0 errors. Watching for file changes.
+c11:55:42 - File change detected. Starting incremental compilation...
+
+
+11:55:42 - Found 0 errors. Watching for file changes.
+c12:01:33 - File change detected. Starting incremental compilation...
+
+
+12:01:33 - Found 0 errors. Watching for file changes.
+c15:57:56 - File change detected. Starting incremental compilation...
+
+
+15:57:57 - Found 0 errors. Watching for file changes.
+c16:03:14 - File change detected. Starting incremental compilation...
+
+
+16:03:14 - Found 0 errors. Watching for file changes.
+c16:05:38 - File change detected. Starting incremental compilation...
+
+
+16:05:38 - Found 0 errors. Watching for file changes.
+c18:00:43 - File change detected. Starting incremental compilation...
+
+
+18:00:43 - Found 0 errors. Watching for file changes.
+c18:34:12 - File change detected. Starting incremental compilation...
+
+
+18:34:12 - Found 0 errors. Watching for file changes.
+c18:35:21 - File change detected. Starting incremental compilation...
+
+
+18:35:22 - Found 0 errors. Watching for file changes.
+c21:03:51 - File change detected. Starting incremental compilation...
+
+
+21:03:51 - Found 0 errors. Watching for file changes.
+c21:43:18 - File change detected. Starting incremental compilation...
+
+
+21:43:18 - Found 0 errors. Watching for file changes.
+c21:49:21 - File change detected. Starting incremental compilation...
+
+
+21:49:21 - Found 0 errors. Watching for file changes.
+c21:49:54 - File change detected. Starting incremental compilation...
+
+
+21:49:54 - Found 0 errors. Watching for file changes.
+c21:50:33 - File change detected. Starting incremental compilation...
+
+
+21:50:33 - Found 0 errors. Watching for file changes.
+c21:51:25 - File change detected. Starting incremental compilation...
+
+
+21:51:25 - Found 0 errors. Watching for file changes.
+c22:05:47 - File change detected. Starting incremental compilation...
+
+
+22:05:47 - Found 0 errors. Watching for file changes.
+c22:07:53 - File change detected. Starting incremental compilation...
+
+
+22:07:53 - Found 0 errors. Watching for file changes.
+c22:08:13 - File change detected. Starting incremental compilation...
+
+
+22:08:14 - Found 0 errors. Watching for file changes.
+c22:08:35 - File change detected. Starting incremental compilation...
+
+
+22:08:35 - Found 0 errors. Watching for file changes.
+c22:25:06 - File change detected. Starting incremental compilation...
+
+
+22:25:06 - Found 0 errors. Watching for file changes.
+c22:27:09 - File change detected. Starting incremental compilation...
+
+
+22:27:09 - Found 0 errors. Watching for file changes.
+c22:28:35 - File change detected. Starting incremental compilation...
+
+
+22:28:35 - Found 0 errors. Watching for file changes.
+c22:28:43 - File change detected. Starting incremental compilation...
+
+
+22:28:43 - Found 0 errors. Watching for file changes.
+c22:29:49 - File change detected. Starting incremental compilation...
+
+
+22:29:49 - Found 0 errors. Watching for file changes.
+c22:33:01 - File change detected. Starting incremental compilation...
+
+
+22:33:01 - Found 0 errors. Watching for file changes.
+c22:38:41 - File change detected. Starting incremental compilation...
+
+
+22:38:42 - Found 0 errors. Watching for file changes.
+c0:42:35 - File change detected. Starting incremental compilation...
+
+
+0:42:36 - Found 0 errors. Watching for file changes.
+c0:43:10 - File change detected. Starting incremental compilation...
+
+
+0:43:10 - Found 0 errors. Watching for file changes.
+c0:52:23 - File change detected. Starting incremental compilation...
+
+
+0:52:23 - Found 0 errors. Watching for file changes.
+c8:17:23 - File change detected. Starting incremental compilation...
+
+
+8:17:23 - Found 0 errors. Watching for file changes.
+c8:24:28 - File change detected. Starting incremental compilation...
+
+
+8:24:28 - Found 0 errors. Watching for file changes.
+c10:01:46 - File change detected. Starting incremental compilation...
+
+
+10:01:46 - Found 0 errors. Watching for file changes.
+c15:12:12 - File change detected. Starting incremental compilation...
+
+
+15:12:12 - Found 0 errors. Watching for file changes.
+c10:34:14 - File change detected. Starting incremental compilation...
+
+
+10:34:15 - Found 0 errors. Watching for file changes.
+c11:00:06 - File change detected. Starting incremental compilation...
+
+
+11:00:06 - Found 0 errors. Watching for file changes.
+c17:11:41 - File change detected. Starting incremental compilation...
+
+
+17:11:41 - Found 0 errors. Watching for file changes.
+c17:18:11 - File change detected. Starting incremental compilation...
+
+
+17:18:11 - Found 0 errors. Watching for file changes.
+c17:18:28 - File change detected. Starting incremental compilation...
+
+
+17:18:29 - Found 0 errors. Watching for file changes.
+c17:18:35 - File change detected. Starting incremental compilation...
+
+
+17:18:35 - Found 0 errors. Watching for file changes.
+c17:18:36 - File change detected. Starting incremental compilation...
+
+
+17:18:36 - Found 0 errors. Watching for file changes.
+c17:19:40 - File change detected. Starting incremental compilation...
+
+
+17:19:40 - Found 0 errors. Watching for file changes.
+c17:27:51 - File change detected. Starting incremental compilation...
+
+
+17:27:51 - Found 0 errors. Watching for file changes.
+c17:28:20 - File change detected. Starting incremental compilation...
+
+
+17:28:20 - Found 0 errors. Watching for file changes.
+c17:29:08 - File change detected. Starting incremental compilation...
+
+
+17:29:08 - Found 0 errors. Watching for file changes.
+c17:29:45 - File change detected. Starting incremental compilation...
+
+
+17:29:45 - Found 0 errors. Watching for file changes.
+c11:37:39 - File change detected. Starting incremental compilation...
+
+
+11:37:39 - Found 0 errors. Watching for file changes.

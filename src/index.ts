@@ -3,17 +3,6 @@ import morgan from 'morgan';
 import cors from 'cors';
 
 //Routes
-import atendimentoRoutes from './routes/atendimentoRoutes';
-import colaboradorRoutes from './routes/colaboradorRoutes';
-import timesheetRoutes from './routes/timesheetRoutes';
-import projetoRoutes from './routes/projetoRoutes';
-import inventarioRoutes from './routes/inventarioRoutes';
-import dataRoutes from './routes/dataRoutes';
-import custfixoRoutes from './routes/custfixoRoutes';
-import loginRoutes from './routes/loginRoutes';
-import scRoutes from './routes/scRoutes';
-import unidadesRoutes from './routes/unidadesRoutes';
-import CxRoutes from './routes/cxRoutes'
 import oclRoutes from './routes/oclRoutes'
 
 class Server {
@@ -36,17 +25,6 @@ class Server {
     }
 
     routes(): void {
-        this.app.use('/', atendimentoRoutes); //Atendentes
-        this.app.use('/api/colab', colaboradorRoutes); //colaboradores
-        this.app.use('/api/time', timesheetRoutes); //timesheet
-        this.app.use('/api/proj', projetoRoutes); //projetos
-        this.app.use('/api/inv', inventarioRoutes); //inventario
-        this.app.use('/api/data', dataRoutes); //dataapi
-        this.app.use('/api/sc', scRoutes); //Sc
-        this.app.use('/api/cf', custfixoRoutes); //cfs
-        this.app.use('/api/auth', loginRoutes); //auth (login etc..)
-        this.app.use('/api/uni', unidadesRoutes); //Atendentes
-        this.app.use('/api/cx', CxRoutes); //Caixa
         this.app.use('/api/ocl', oclRoutes); //Caixa
     }
 
